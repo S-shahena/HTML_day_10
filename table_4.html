@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table_4</title>
+
+    <style>
+        table,tr,td,th{
+            border:3px solid rgb(202, 195, 195);
+            text-align: center;
+            font-size: 30px;
+            padding:10px;
+            margin: 40px;
+            border-collapse:collapse;
+        }
+
+        #td{
+            background-color: rgb(255, 183, 171);
+        }
+        .sh{
+            background-color: rgb(192, 235, 192);
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <h1>table_4</h1>
+
+    <table>
+
+
+        <tr>
+            <th>Region</th>
+            <th>Manager</th>
+            <th class="sh">Coordinator</th>
+            <th>Local Rep</th>
+            <th>Secretary</th>
+        </tr>
+
+
+        <tr>
+        
+            <td>North</td>
+            <td>Adam</td>
+            <td class="sh">Beth</td>
+            <td>Callum</td>
+            <td>Diane</td>
+        </tr>
+
+        <tr>
+            <td>South West</td>
+            <td rowspan="3", colspan="3">Annie</td>
+            <td>Dodie</td>
+        </tr>
+
+        <tr id="td">
+            <td>South East Upper</td>
+            <td>Dylan</td>
+        </tr>
+
+        <tr>
+            <td>South East Lower</td>
+            <td>Dahlia</td>
+        </tr>
+
+        <tr>
+            <td>East</td>
+            <td>Ash</td>
+            <td class="sh">Bill</td>
+            <td>Cecilia</td>
+            <td>Dave</td>
+        </tr>
+
+        <tr>
+            <td>West</td>
+            <td>Art</td>
+            <td class="sh">Bruce</td>
+            <td>Colin</td>
+            <td>Danny</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
